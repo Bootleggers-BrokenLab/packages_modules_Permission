@@ -175,6 +175,7 @@ object PermissionMapping {
         }
 
         PLATFORM_PERMISSIONS[Manifest.permission.BODY_SENSORS] = Manifest.permission_group.SENSORS
+        PLATFORM_PERMISSIONS[Manifest.permission.FAKE_PACKAGE_SIGNATURE] = Manifest.permission_group.FAKE_PACKAGE
 
         if (SdkLevel.isAtLeastT()) {
             PLATFORM_PERMISSIONS[Manifest.permission.POST_NOTIFICATIONS] =
